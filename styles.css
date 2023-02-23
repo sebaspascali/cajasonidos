@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aquamarine;
+    text-align: center;
+    overflow: hidden;
+}
+
+button {
+    padding: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+}
+
+.btn{
+    background-color: coral;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(3.8);
+    transform: translate(4px);
+}
+
